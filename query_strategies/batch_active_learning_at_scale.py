@@ -7,7 +7,7 @@ from torch.autograd import Variable
 from sklearn.cluster import AgglomerativeClustering
 distance_threshold = 8
 # (ClusterMargin, 2021) Batch Active Learning at Scale
-# Original code is not open source. Reproduced by muxi
+# Original code is not open source. Reproduced.
 
 class Cluster():
     def __init__(self, init_points, cluster_id):
