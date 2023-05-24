@@ -7,44 +7,6 @@ This code was built based on [Jordan Ash's repository](https://github.com/Jordan
 To run this code fully, you'll need [PyTorch](https://pytorch.org/) (we're using version 1.4.0), [scikit-learn](https://scikit-learn.org/stable/).
 We've been running our code in Python 3.7.
 
-# Algorithms Implemented
-## Deep active learning Strategies
-|                Sampling Strategies                |    Year    | Done |
-|:-------------------------------------------------:|:----------:|:----:|
-|                  Random Sampling                  |      x     |  ✅ |
-|                 ClusterMargin [1]                 |  arXiv'21  |  ✅ |
-|                      WAAL [2]                     | AISTATS'20 |  ✅ |
-|                     BADGE [3]                     |   ICLR'20  |  ✅ |
-|    Adversarial Sampling for Active Learning [4]   |   WACV'20  |  ✅ |
-|       Learning Loss for Active Learning [5]       |   CVPR'19  |  ✅ |
-|     Variational Adversial Active Learning [6]     |   ICCV'19  |  ✅ |
-|                   BatchBALD [7]                   |   NIPS'19  |  ✅ |
-|                K-Means Sampling [8]               |   ICLR'18  |  ✅ |
-|                K-Centers Greedy [8]               |   ICLR'18  |  ✅ |
-|                    Core-Set [8]                   |   ICLR'18  |  ✅ |
-|             Adversarial - DeepFool [9]            |  ArXiv'18  |  ✅ |
-|             Uncertainty Ensembles [10]            |   NIPS'17  |  ✅ |
-| Uncertainty Sampling with Dropout Estimation [11] |   ICML'17  |  ✅ |
-|     Bayesian Active Learning Disagreement [11]    |   ICML'17  |  ✅ |
-|               Least Confidence [12]               |  IJCNN'14  |  ✅ |
-|                Margin Sampling [12]               |  IJCNN'14  |  ✅ |
-|               Entropy Sampling [12]               |  IJCNN'14  |  ✅ |
-|               UncertainGCN Sampling [13]          |  CVPR'21  |  ✅ |
-|               CoreGCN Sampling [13]               |  CVPR'21  |  ✅ |
-|               Ensemble [14]                       |  CVPR'18  |  ✅ |
-|               MCDAL [15]                |  Knowledge-based Systems'19  |  ✅ |
-
-
-## Deep active learning + Semi-supervised learning
-
-|                Sampling Strategies                |    Year    | Done |
-|:-------------------------------------------------:|:----------:|:----:|
-|               Consistency-SSLAL [16]                |  ECCV'20  |  ✅ |
-|               MixMatch-SSLAL [17]                |  arXiv  |  ✅ |
-|               UDA [18]                |  NIPS'20  |  In progress |
-
-
-
 
 # Running an experiment
 ## Requirements
